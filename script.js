@@ -14,7 +14,6 @@ let songs = [
     { songName: "Aasman ko chhukar", filePath: "12.mp3", coverPath: "12.jpg" },
     { songName: "Tu Kitni Achhi Hai", filePath: "13.mp3", coverPath: "13.png" },
     { songName: "Maa-Taare Zameen Par", filePath: "14.mp3", coverPath: "14.jpg" },
-    { songName: "Mere Yaara", filePath: "15.mp3", coverPath: "15.jpg" },
 ];
 
 // Load songs into list
@@ -93,4 +92,5 @@ document.getElementById('previous').addEventListener('click', () => {
     masterPlay.classList.remove('fa-play-circle');
     masterPlay.classList.add('fa-pause-circle');
 });
+
 
